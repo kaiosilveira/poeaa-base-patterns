@@ -6,7 +6,7 @@ A small simple object, like money or a date range, whose equality isn’t based 
 
 A `Tag` can be modeled as a value object. Simple tags contain only a text label and are considered equal if the text in one tag matches the text in another. This approach is implemented below, in Typescript and C#. Follow the link of each of them for implementation details and language-specific discussions.
 
-**Typescript** ([kaiosilveira/typescript-value-object](./typescript-value-object)):
+**Typescript** ([kaiosilveira/typescript-value-object](https://github.com/kaiosilveira/typescript-value-object)):
 
 ```typescript
 export default class Tag {
@@ -26,7 +26,7 @@ export default class Tag {
 }
 ```
 
-**C#** ([kaiosilveira/csharp-value-object](./csharp-value-object)):
+**C#** ([kaiosilveira/csharp-value-object](https://github.com/kaiosilveira/csharp-value-object)):
 
 ```csharp
 public class Tag
