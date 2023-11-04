@@ -4,29 +4,7 @@ A small simple object, like money or a date range, whose equality isn’t based 
 
 ## Implementation example
 
-A `Tag` can be modeled as a value object. Simple tags contain only a text label and are considered equal if the text in one tag matches the text in another. This approach is implemented below, in Typescript and C#. Follow the link of each of them for implementation details and language-specific discussions.
-
-**Typescript** ([kaiosilveira/typescript-value-object](https://github.com/kaiosilveira/typescript-value-object)):
-
-```typescript
-export default class Tag {
-  private _text: string;
-
-  constructor({ text }: { text: string }) {
-    this._text = text;
-  }
-
-  get text(): string {
-    return this._text;
-  }
-
-  equals(other: Tag): boolean {
-    return other instanceof Tag && this.text === other.text;
-  }
-}
-```
-
-**C#** ([kaiosilveira/poeaa-value-object](https://github.com/kaiosilveira/poeaa-value-object)):
+A `Tag` can be modeled as a value object. Simple tags contain only a text label and are considered equal if the text in one tag matches the text in another. This approach is implemented below in C#.
 
 ```csharp
 public class Tag
@@ -59,3 +37,5 @@ public class Tag
   }
 }
 ```
+
+Visit [the poeaa-value-object](https://github.com/kaiosilveira/poeaa-value-object) repository page for implementation details and language-specific discussions.
