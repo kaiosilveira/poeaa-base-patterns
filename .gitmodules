@@ -1,6 +1,3 @@
-[submodule "value-object/csharp-value-object"]
-	path = value-object/csharp-value-object
-	url = https://github.com/kaiosilveira/csharp-value-object.git
-[submodule "value-object/typescript-value-object"]
-	path = value-object/typescript-value-object
-	url = https://github.com/kaiosilveira/typescript-value-object.git
+[submodule "value-object/poeaa-value-object"]
+	path = value-object/poeaa-value-object
+	url = https://github.com/kaiosilveira/poeaa-value-object.git

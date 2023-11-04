@@ -26,7 +26,7 @@ export default class Tag {
 }
 ```
 
-**C#** ([kaiosilveira/csharp-value-object](https://github.com/kaiosilveira/csharp-value-object)):
+**C#** ([kaiosilveira/poeaa-value-object](https://github.com/kaiosilveira/poeaa-value-object)):
 
 ```csharp
 public class Tag
