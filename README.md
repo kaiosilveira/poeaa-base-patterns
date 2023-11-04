@@ -2,7 +2,7 @@
 
 # PoEAA - Base Patterns
 
-Base patterns are commonly-used approaches to well-known problems, such as creating objects that are only meant to carry certain values ([value objects](https://github.com/kaiosilveira/poeaa-base-patterns)), setting up a `Registry` to keep track of in-memory instances or even simply configuring a `Money` class.
+Base patterns are commonly-used approaches to well-known problems, such as creating objects that are only meant to carry certain values ([value objects](/value-object/)), setting up a `Registry` to keep track of in-memory instances or even simply configuring a `Money` class.
 
 ## Base Patterns Catalog
 
