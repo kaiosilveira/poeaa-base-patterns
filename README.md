@@ -6,4 +6,4 @@ Base patterns are commonly-used approaches to well-known problems, such as creat
 
 ## Base Patterns Catalog
 
-[Value Object](./value-object/): A small simple object, like money or a date range, whose equality isn’t based on identity
+[Value Object](https://github.com/kaiosilveira/poeaa-value-object/tree/main): A small simple object, like money or a date range, whose equality isn’t based on identity

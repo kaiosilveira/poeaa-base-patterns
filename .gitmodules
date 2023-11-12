@@ -1,3 +1,6 @@
 [submodule "value-object/poeaa-value-object"]
 	path = value-object/poeaa-value-object
 	url = https://github.com/kaiosilveira/poeaa-value-object.git
+[submodule "value-object"]
+	path = value-object
+	url = https://github.com/kaiosilveira/poeaa-value-object.git
